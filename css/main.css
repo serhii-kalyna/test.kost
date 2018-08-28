@@ -687,7 +687,8 @@ p {
       .container-fluid #block1 .block-content h4 {
         font: 1em GilroyLight, sans-serif; }
     .container-fluid #block1 .block-menu {
-      margin-left: 0 !important;
+	  top: 0!important;
+	  left: 0!important;
       display: block !important;
       width: 100%;
       position: fixed;
