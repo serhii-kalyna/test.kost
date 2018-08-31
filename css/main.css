@@ -236,7 +236,7 @@ p {
         margin-top: 6em; }
         .container-fluid #block5 .block-content .slider-block-box .block-article {
           border-top: 2px solid rgba(255, 255, 255, 0.2);
-          height: 20.3125em;
+          height: 19em;
           min-width: 260px;
           width: 30%;
           margin-top: 20px;
@@ -316,6 +316,7 @@ p {
               margin-top: -15px;
               margin-left: 180px; }
             .container-fluid #block5 .block-content .slider-block-box .block-article .btn-read .arrow {
+              position: absolute;
               margin-left: 200px;
               margin-top: -10px; }
           .container-fluid #block5 .block-content .slider-block-box .block-article .btn-read:hover > span {
@@ -340,31 +341,11 @@ p {
           margin-top: 22.8125em;
           margin-left: 91%; }
         .container-fluid #block5 .block-content .slider-block-box .slick-next {
-          margin-top: 1.25em;
+          margin-top: 2.5em;
           margin-left: 94.8%; }
         .container-fluid #block5 .block-content .slider-block-box .slick-prev:hover,
         .container-fluid #block5 .block-content .slider-block-box .slick-next:hover {
           background: url(../img/arrow.svg) no-repeat; }
-      .container-fluid #block5 .block-content .slider-btns {
-        z-index: 10;
-        margin-top: 20px;
-        margin-left: 62.5%;
-        height: 50px;
-        width: 100px;
-        border: 1px solid white;
-        position: absolute; }
-        .container-fluid #block5 .block-content .slider-btns .svg {
-          fill: white;
-          width: 15px;
-          height: auto;
-          display: block;
-          margin-top: 20px; }
-          .container-fluid #block5 .block-content .slider-btns .svg:hover {
-            fill: #ff4343; }
-        .container-fluid #block5 .block-content .slider-btns .line {
-          margin-top: 15px;
-          float: left;
-          margin-left: 43px; }
   .container-fluid .row {
     height: 41.6875em; }
     .container-fluid .row .block-sidebar {
@@ -687,8 +668,8 @@ p {
       .container-fluid #block1 .block-content h4 {
         font: 1em GilroyLight, sans-serif; }
     .container-fluid #block1 .block-menu {
-	  top: 0!important;
-	  left: 0!important;
+      top: 0 !important;
+      left: 0 !important;
       display: block !important;
       width: 100%;
       position: fixed;
@@ -888,6 +869,8 @@ p {
           padding: 0; }
           .container-fluid #block5 .block-content .slider-block-box .block-article .btn-read {
             display: none; }
+            .container-fluid #block5 .block-content .slider-block-box .block-article .btn-read svg {
+              display: none; }
           .container-fluid #block5 .block-content .slider-block-box .block-article .read {
             display: block !important;
             position: absolute;
@@ -912,7 +895,7 @@ p {
               fill: #ff4343; }
       .container-fluid #block5 .block-content .slick-prev,
       .container-fluid #block5 .block-content .slick-next {
-        display: none!important; }
+        display: none !important; }
     .container-fluid #footer {
       height: auto !important;
       margin-bottom: -80px; }
@@ -1034,7 +1017,7 @@ p {
               fill: #ff4343; }
       .container-fluid #block5 .block-content .slick-prev,
       .container-fluid #block5 .block-content .slick-next {
-        display: none!important; }
+        display: none !important; }
     .container-fluid #footer {
       height: auto !important;
       margin-bottom: -80px; }
